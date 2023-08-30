@@ -1,0 +1,43 @@
+pipeline{
+agent any
+stages{
+	stage('Build'){
+		steps{
+		echo "Build the project....."	
+		}
+	}
+
+	stage('Deploy'){
+		steps{
+		echo "Deploying the project....."
+		}
+	}
+
+	stage('Test'){
+		steps{
+		echo "Testing the project....."
+		}
+	}
+}
+}
+
+
+
+~
+
+~
+~
+
+~
+~
+~
+
+
+
+
+
+~
+~
+~
+~
+usrbash: line 1: wq~: command not found
